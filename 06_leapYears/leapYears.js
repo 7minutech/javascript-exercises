@@ -10,12 +10,6 @@ const leapYears = function(year) {
             return false;
         }
     }
-    //if year below 100 only need to check first condition
-    else{
-        if(year % 4 == 0){
-            return true
-        }
-    }
 
 };
 
