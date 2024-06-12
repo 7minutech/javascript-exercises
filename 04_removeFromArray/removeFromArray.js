@@ -1,6 +1,6 @@
 
 const removeFromArray = function(arr,...targets) {
-    let newArr = [];
+    const newArr = [];
     //if element is in targets skip if not add to newArr
     for(let element of arr){
         if(targets.includes(element)){
